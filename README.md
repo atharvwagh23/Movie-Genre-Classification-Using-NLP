@@ -38,7 +38,6 @@ Movie Genre Classification Using NLP/
 7. **Hyperparameter Tuning** — tuned the Naive Bayes `alpha` (smoothing) parameter to improve accuracy.
 8. **Word Clouds** — visualized the most frequent words associated with specific genres.
 9. **Prediction** — built a reusable function to predict the genre of any new script snippet.
-10. **Submission File** — generated genre predictions for the entire test set in Kaggle submission format.
 
 ## 📊 Results
 
@@ -88,13 +87,6 @@ Movie Genre Classification Using NLP/
 - `test.csv` — 5,589 rows with columns `id`, `text` (no label — used for prediction)
 
 Source: [Kaggle Movie Genres Competition](https://www.kaggle.com/c/moviegenres/overview)
-
-## 📈 Future Improvements
-
-- Try **TF-IDF** vectorization instead of raw Bag of Words
-- Experiment with other classifiers (Logistic Regression, Linear SVM, Random Forest)
-- Address class imbalance using oversampling (SMOTE) or class weighting
-- Try word embeddings (Word2Vec, GloVe) or transformer-based models (BERT) for richer text representation
 
 ## 📄 License
 
